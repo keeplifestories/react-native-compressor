@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Shobbak/react-native-compressor.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
+  s.swift_version = '4.2'
 
   s.dependency "React-Core"
   s.dependency "NextLevelSessionExporter"
